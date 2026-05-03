@@ -1,7 +1,7 @@
 ﻿namespace Clean.Architecture.Domain.Common
 {
-    public abstract class BaseEntity
+    public class BaseEntity
     {
-        public virtual int Id { get; protected set; }
+        public int Id { get; set; }
     }
 }
